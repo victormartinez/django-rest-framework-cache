@@ -10,4 +10,4 @@ try:
         cache = caches[cache_backend]
 except KeyError:
     raise ImproperlyConfigured("'{}' is a invalid CACHE_BACKEND".format(
-        api_settings.DEFAUL_CACHE_BACKEND))
+        api_settings.DEFAULT_CACHE_BACKEND))
